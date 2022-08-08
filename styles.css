@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.navbar h1{
+    font-size: 40px;
+    line-height: 50px;
+    margin: 25px 0;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20 px;
+}
+a{
+    text-decoration: none;
+    color: deeppink;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px;
+    padding-top: 120px;
+}
+.col-2 h1{
+    font-size: 30px;
+    line-height: 40px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background:deeppink;
+    color: aliceblue;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: violet;
+}
+.btn1{
+    display: inline-block;
+    background:deeppink;
+    color: aliceblue;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn1:hover{
+    background: violet;
+}
+
+.btn2{
+    display: inline-block;
+    background:aliceblue;
+    color: deeppink;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    border-block-color: deeppink;
+    transition: background 0.5s;
+}
+.btn2:hover{
+    background:violet;
+}
+.header .row{
+    margin-top: 70px;
+}
+.container1{
+    padding-left: 10%;
+}
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-3 img{
+    width: 70%;
+    padding-right: 5%;
+}
+.categories .row{
+    margin-top: 70px;
+}
+.small-container{
+    max-width: 1080px;
+    margin-top: 70px;
+    margin-left: 25px;
+    padding-left: 25px;
+}
+.col-3 sub{
+    font-size:xx-small;
+}
+.col-3 h2{
+    font-size: 30px;
+    line-height: 40px;
+    margin: 25px 0;
+}
+.btn3{
+    display: inline-block;
+    background:deeppink;
+    color: aliceblue;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn3:hover{
+    background: violet;
+}
+.categories1{
+    margin: 70px 0;
+}
+.col-4{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-4 img{
+    width: 70%;
+    padding-right: 5%;
+}
+.categories1 .row1{
+    margin-top: 70px;
+}
+.small-container1{
+    max-width: 1080px;
+    margin-top: 70px;
+    margin-left: 25px;
+    padding-left: 25px;
+}
+.btn4{
+    display: inline-block;
+    background:deeppink;
+    color: aliceblue;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn4:hover{
+    background: violet;
+}
